@@ -1,0 +1,39 @@
+<div class="card member-card h-100 border-0 shadow-sm text-center">
+  <div class="card-body d-flex flex-column align-items-center py-4">
+    <img src="{{ member.image | default: '/assets/img/team/placeholder.jpg' | relative_url }}"
+         alt="{{ member.name }}"
+         class="member-photo rounded-circle mb-3" />
+    <h6 class="member-name mb-0">{{ member.name }}</h6>
+    <p class="member-role text-muted small mb-2">{{ member.position | default: member.role }}</p>
+    {% if member.interests %}
+    <p class="member-interests text-muted x-small mb-2">{{ member.interests }}</p>
+    {% endif %}
+    <div class="member-links d-flex gap-2 mt-auto">
+      {% if member.email %}
+      <a href="mailto:{{ member.email }}" class="member-link" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      {% endif %}
+      {% if member.github %}
+      <a href="{{ member.github }}" class="member-link" target="_blank" rel="noopener" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+      {% if member.scholar %}
+      <a href="{{ member.scholar }}" class="member-link" target="_blank" rel="noopener" title="Google Scholar">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      {% endif %}
+      {% if member.linkedin %}
+      <a href="{{ member.linkedin }}" class="member-link" target="_blank" rel="noopener" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      {% endif %}
+      {% if member.website %}
+      <a href="{{ member.website }}" class="member-link" target="_blank" rel="noopener" title="Website">
+        <i class="fas fa-globe"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

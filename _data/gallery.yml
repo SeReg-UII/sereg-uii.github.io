@@ -1,0 +1,14 @@
+# Gallery photos
+# Add your photos to assets/img/gallery/ and list them here
+
+- image: /assets/img/gallery/photo1.jpg
+  caption: "Group photo at [Event Name], [Year]"
+
+- image: /assets/img/gallery/photo2.jpg
+  caption: "[Conference/Workshop Name] [Year]"
+
+- image: /assets/img/gallery/photo3.jpg
+  caption: "Lab outing — [Month Year]"
+
+- image: /assets/img/gallery/photo4.jpg
+  caption: "[Award Ceremony / Presentation]"

@@ -1,0 +1,64 @@
+# Team members data
+# role: pi | postdoc | phd | masters | undergraduate | alumni
+# All fields except name and role are optional
+
+- name: "Fietyata Yudha, Ph.D."
+  role: PI
+  position: "Assistant Professor"
+  image: /assets/img/team/leader.jpg
+  email: "yudha@uii.ac.id"
+  scholar:
+  github:
+  linkedin:
+  website:
+  interests: "AI for Cybersecurity,Network Security,Digital Forensics"
+
+# - name: "Postdoc Researcher Name"
+#   role: postdoc
+#   position: "Postdoctoral Researcher"
+#   image: /assets/img/team/member2.jpg
+#   email:
+#   scholar:
+#   github:
+#   interests: "Research Interest A, Research Interest B"
+
+# - name: "PhD Student 1"
+#   role: phd
+#   position: "PhD Student (Year X)"
+#   image: /assets/img/team/member3.jpg
+#   email:
+#   scholar:
+#   github:
+#   interests: "Research Interest"
+
+# - name: "PhD Student 2"
+#   role: phd
+#   position: "PhD Student (Year X)"
+#   image: /assets/img/team/member4.jpg
+#   email:
+#   github:
+#   interests: "Research Interest"
+
+# - name: "Master's Student 1"
+#   role: masters
+#   position: "MSc Student"
+#   image:
+#   email:
+#   interests: "Research Interest"
+
+# - name: "Alumni Name"
+#   role: alumni
+#   position: "PhD (Graduated 202X)"
+#   image:
+#   email:
+#   linkedin:
+#   interests: "Now at [Company / Institution]"
+
+
+- name: "Ahnaf Rafi Raditya"
+  role: undergraduate
+  position: "Undergraduate Research Assistant"
+  image:
+  email:
+  linkedin:
+  interests: "Cybersecurity"

@@ -1,0 +1,47 @@
+# Add your publications here.
+# featured: true  →  shows on the About (home) page
+# Fields: title, authors, venue, year, preview (image path), pdf, url, code, project, award, featured
+
+- title: "Paper Title One: A Study on [Topic]"
+  authors: "First Author, Second Author, **Group Member Name**"
+  venue: "Journal of [Field]"
+  year: 2025
+  preview: /assets/img/publications/paper1.png
+  pdf:
+  url:
+  code:
+  award:
+  featured: true
+
+- title: "Paper Title Two: Deep Learning Approach for [Task]"
+  authors: "**Group Member Name**, Collaborator Name"
+  venue: "Proceedings of [Conference] (CONF 2025)"
+  year: 2025
+  preview: /assets/img/publications/paper2.png
+  pdf:
+  url:
+  code:
+  award: Best Paper Award
+  featured: true
+
+- title: "Paper Title Three: An Analysis of [Topic]"
+  authors: "Author A, Author B, **Group Member Name**"
+  venue: "[Journal Name]"
+  year: 2024
+  preview:
+  pdf:
+  url:
+  code:
+  award:
+  featured: false
+
+- title: "Paper Title Four: Towards [Goal]"
+  authors: "**Group Member Name**, Author C"
+  venue: "Workshop on [Topic] (CONF 2024)"
+  year: 2024
+  preview:
+  pdf:
+  url:
+  code:
+  award:
+  featured: false

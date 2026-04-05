@@ -4,7 +4,7 @@
 title:          "SeReg - Security Research Group"           # Your group's name
 description:    "SeReg (Security Research Group) is an academic research community at Universitas Islam Indonesia dedicated to advancing cybersecurity, AI-driven defense systems, and applied digital forensics.We collaborate on research projects, publications, and student development to produce impactful security in"
 keywords:       "research group, cybersecurity, AI-driven defense systems, digital forensics, academic research, Universitas Islam Indonesia"
-url:            "https://sereguii.github.io"
+url:            "https://sereg-uii.github.io"
 baseurl:        ""                                 # leave empty for user.github.io sites
 last_updated:   false
 

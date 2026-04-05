@@ -6,10 +6,11 @@ description: Meet the members of our working group.
 nav_order: 5
 ---
 
-{% assign pi = site.data.members | where: "role", "pi" %}
+{% assign pi = site.data.members | where: "role", "PI" %}
 {% assign postdocs = site.data.members | where: "role", "postdoc" %}
 {% assign phd = site.data.members | where: "role", "phd" %}
 {% assign masters = site.data.members | where: "role", "masters" %}
+{% assign undergrads = site.data.members | where: "role", "undergraduate" %}
 {% assign alumni = site.data.members | where: "role", "alumni" %}
 
 <!-- ==================== PI / Group Leader ======================== -->
@@ -57,6 +58,19 @@ nav_order: 5
 
 <div class="row g-4 mb-5">
   {% for member in masters %}
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    {% include member_card.html member=member %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ================== Undergraduate Students ==================== -->
+{% if undergrads.size > 0 %}
+## Undergraduate Research Assistants
+
+<div class="row g-4 mb-5">
+  {% for member in undergrads %}
   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
     {% include member_card.html member=member %}
   </div>

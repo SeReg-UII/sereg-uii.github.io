@@ -1,0 +1,75 @@
+# -----------------------------------------------------------------------------
+# Site settings — update these for your working group
+# -----------------------------------------------------------------------------
+title:          "SeReg - Security Research Group"           # Your group's name
+description:    "SeReg (Security Research Group) is an academic research community at Universitas Islam Indonesia dedicated to advancing cybersecurity, AI-driven defense systems, and applied digital forensics.We collaborate on research projects, publications, and student development to produce impactful security in"
+keywords:       "research group, cybersecurity, AI-driven defense systems, digital forensics, academic research, Universitas Islam Indonesia"
+url:            "https://sereguii.github.io"
+baseurl:        ""                                 # leave empty for user.github.io sites
+last_updated:   false
+
+# -----------------------------------------------------------------------------
+# Author & institution info
+# -----------------------------------------------------------------------------
+author:
+  name:         "Fietyata Yudha, Ph.D."
+  institution:  "Universitas Islam Indonesia"
+  department:   "Department of Informatics"
+  email:        "yudha@uii.ac.id"
+
+# Social links (leave blank to hide)
+social:
+  google_scholar: "https://scholar.google.com/citations?user=6ymFJTYAAAAJ&hl=en"   # e.g. "https://scholar.google.com/citations?user=XXXX"
+  github:         "https://github.com/masjohncook"
+  linkedin:       "https://www.linkedin.com/in/fietyatayudha/"
+  # twitter:        ""
+  # researchgate:   ""
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+markdown:     kramdown
+highlighter:  rouge
+permalink:    /:slug/
+
+kramdown:
+  input:         GFM
+  syntax_highlighter_opts:
+    css_class:   highlight
+
+# Sass
+sass:
+  style: compressed
+
+# Plugins (GitHub Pages safe)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  news:
+    output:    false
+    sort_by:   date
+
+# Defaults
+defaults:
+  - scope:
+      path:    "_pages"
+      type:    pages
+    values:
+      layout:  page
+  - scope:
+      path:    "_news"
+    values:
+      layout:  none
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md

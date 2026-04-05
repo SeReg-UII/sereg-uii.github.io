@@ -65,6 +65,10 @@ defaults:
     values:
       layout:  none
 
+# Include _pages directory so Jekyll processes it
+include:
+  - _pages
+
 # Exclude from build
 exclude:
   - Gemfile

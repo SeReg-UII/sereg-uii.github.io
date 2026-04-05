@@ -81,6 +81,12 @@ a:hover { color: var(--color-primary-dk); text-decoration: underline; }
 }
 #main-nav .navbar-brand:hover { color: var(--color-primary); text-decoration: none; }
 
+.navbar-logo {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+}
+
 #main-nav .nav-link {
   font-size: .9rem;
   font-weight: 500;

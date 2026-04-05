@@ -58,7 +58,7 @@
 - name: "Ahnaf Rafi Raditya"
   role: undergraduate
   position: "Undergraduate Research Assistant"
-  image:
+  image: /assets/img/team/placeholder.svg
   email:
   linkedin:
   interests: "Cybersecurity"
